@@ -14,6 +14,7 @@ app.set('views', path.join(__dirname, 'views')) // Set the views directory
 
 // ENDPOINTS
 app.get('/', (req, res)=>{
+    const a = 2 ; 
     const params = { }
     res.status(200).render('home.pug', params);
 })
