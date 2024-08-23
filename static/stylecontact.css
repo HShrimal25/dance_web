@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1{
+    text-align: center;
+    color: black;
+    padding: 20px;
+     font-family: "Dancing Script", cursive;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+
+.myInput{
+    margin: 10px auto;
+    padding: 5px;
+    width: 40%;
+    font-size: 15px;
+    border: 2px solid rgb(118, 110, 110);
+    border-radius: 10px;
+    color: black;
+     font-family: "Dancing Script", cursive;
+}
+
+.btn{
+    color: white;
+    padding: 5px 30px;
+    font-size: 16px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(65, 63, 63);
+    outline: none;
+     font-family: "Dancing Script", cursive;
+}
+
+.btn:hover{
+    border: 2px solid darkred;
+    background-color: darkred;
+}
+
+.container{
+    min-height: 85vh;
+    background-color: rgb(190, 224, 224);
+    
+}

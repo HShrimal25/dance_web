@@ -1,0 +1,63 @@
+extends base.pug
+
+block scripts 
+   scripts(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    //- nav#navbar
+    //-    ul 
+    //-       div#logo
+    //-         img(src="/static/img/logo.jpg")
+    //-         | BDA 
+    //-       li #[a(href="/") Home]
+    //-       li #[a(href="/") About]
+    //-       li #[a(href="/") Services]
+    //-       li #[a(href="/") Class info]
+    //-       li #[a(href="/") Contact Us]
+
+    section#introSection 
+      div Welcome to BroSis Dance Academy 
+      div.small Learn Dance and Get Chance
+
+    section#MissionSection 
+      h2 Our Mission
+      div.card 
+        h3 Dance Perfection 
+          div.card-box
+             div.card-img  
+                img(src="/static/img/2.jpg")
+             div.card-content   
+                p Learn dance with relaxtion and enjoy with us.Discover the joy of dance at brosis dance academy.
+      div.card 
+        h3 Dance the way as you like
+          div.card-box
+             div.card-img  
+                img(src="/static/img/3.jpg")
+             div.card-content   
+                p Ek thumka toh banta hai hamare saath. Ek dance toh banta hai sabke saath.
+      div.card 
+        h3 Super Duper teaching
+          div.card-box
+             div.card-img  
+                img(src="/static/img/4.jpg")
+             div.card-content   
+                p Anybody can dance and get more enjoyment.So don't miss the chance , are you ready for a dance.
+
+    section#sponsorsSection 
+      h2 Our Sponsors
+      div#sponsors  
+        img(src="/static/img/logo1.jpg", alt="404 not found", Class = "spImage")
+        img(src="/static/img/logo2.jpg", alt="404 not found", Class = "spImage")
+        img(src="/static/img/logo3.jpg", alt="404 not found", Class = "spImage")
+        img(src="/static/img/logo4.jpg", alt="404 not found", Class = "spImage")
+
+
+    //- footer#footer 
+    //-   | Copyright © 2023 BroSis Dance Academy.com
+    //-   | All rights reserved
+    
+      

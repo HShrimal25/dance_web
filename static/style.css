@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Whisper&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+ }
+/* navigation bar  */
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#logo img{
+   height: 40px;
+   filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(88, 88, 88);
+    padding: 10px 10px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+#navbar li{
+       list-style: none;
+       padding: 5px 55px;
+}
+
+#navbar li a{
+   text-decoration: none;
+   font-size: 1.5rem;
+}
+
+#navbar li a:hover{
+     color: red;
+}
+ /* Intro  */
+#introSection{
+   display: flex;
+   flex-direction: column;
+   height: 450px;
+   background: center center/cover url('/static/bg.jpg');
+   justify-content: center;
+   align-items: center;
+   font-size: 3.5rem;
+   font-family: "Yeon Sung", system-ui;
+   position: relative;
+   z-index: -1;
+   opacity: 0.89;
+   padding-bottom: 50px;
+}
+
+#introSection div.small{
+    font-size: 2.5rem;
+}
+
+ /* Our mission  */
+#MissionSection{
+      text-align: center;
+      height: 350px;
+      font-family: "Yeon Sung", system-ui;
+      background-color: rgb(193, 192, 192);
+}
+
+
+.card{
+   display: inline-block;
+   border: 2px solid black;
+   border-radius: 6px;
+   width: 28%;
+   height: 70%;
+   margin: 15px 20px;
+   background-color: #fdffc4;
+}
+
+.card h3{
+   font-family: "Ubuntu", sans-serif;
+   padding: 10px 10px;
+   color: black;
+}
+
+#MissionSection h2{
+   font-size: 30px;
+   color: black;
+}
+ 
+
+.card-box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card-content p{
+   color: black;
+   font-family: "Inconsolata", monospace;
+   font-size: 1rem;
+}
+
+.card-img{
+   padding: 0 14px;
+}
+.card-img img{
+   height: 150px;
+}
+ /* Our sponsors  */
+#sponsorsSection{
+   color: black;
+   height: 350px;
+   background-color: rgb(113, 113, 141);
+}
+
+#sponsorsSection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Yeon Sung", system-ui;
+}
+
+#sponsors{
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsors img{
+   padding: 15px 70px;     
+}
+  /* footer  */
+#footer{
+   display: flex;
+    height:50px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Yeon Sung", system-ui;
+}
