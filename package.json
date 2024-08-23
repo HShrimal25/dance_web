@@ -4,7 +4,8 @@
   "description": "This is a famous dance acedmy made by harsh shrima;",
   "main": "app.js",
   "scripts": {
-    "test": "soni"
+    "test": "soni",
+    "start" : "node app.js"
   },
   "repository": {
     "type": "git",
