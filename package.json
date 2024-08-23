@@ -1,21 +1,23 @@
 {
   "name": "dance_web",
   "version": "1.0.0",
-  "description": "This is a famous dance acedmy made by harsh shrima;",
+  "description": "This is a famous dance academy made by Harsh Shrima.",
   "main": "app.js",
   "scripts": {
-    "test": "soni",
-    "start" : "node app.js"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "archana"
+    "url": "https://github.com/HShrimal25/dance_web.git"
   },
   "keywords": [
-    "harsh",
-    "hungry"
+    "dance",
+    "academy",
+    "express",
+    "pug"
   ],
-  "author": "robort",
+  "author": "Robort",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
